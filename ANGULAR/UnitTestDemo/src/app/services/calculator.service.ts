@@ -8,7 +8,7 @@ export class CalculatorService {
 
   constructor() { }
 
-  Add(num1: number, num2: number): Number {
+  Add(num1: number, num2: number): number {
     return num1 + num2;
   }
 

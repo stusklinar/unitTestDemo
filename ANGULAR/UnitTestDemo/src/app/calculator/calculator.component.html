@@ -1,1 +1,17 @@
-<p>calculator works!</p>
+<div class="text-center">
+    
+
+    <h1>Add two numbers</h1>
+    <form >
+        <label>Number 1</label> <input [(ngModel)]="num1" type="number" name="num1"  /><br>
+        <label>Number 2</label> <input [(ngModel)]="num2" type="number"  name="num2" /><br>
+    
+        <button mat-raised-button color="primary" (click)="add()">Calculate</button>
+    </form>
+
+   
+        <h1>Result</h1>
+        <p><label asp-for="Result">{{result}}</label> <br></p>
+    
+
+</div>

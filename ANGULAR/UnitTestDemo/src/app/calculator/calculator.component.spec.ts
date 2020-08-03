@@ -22,4 +22,13 @@ describe('CalculatorComponent', () => {
   it('should create', () => {
     expect(component).toBeTruthy();
   });
+  
+
+  it('should add numbers', () => {
+    component.num1 = 1;
+    component.num2 = 2;
+    component.add();
+    expect(component.result).toBe(2);
+     
+  });
 });
